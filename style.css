@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
 .navbar {
   display: flex;
   align-items: center;
@@ -48,10 +52,6 @@ p {
   justify-content: space-around;
 }
 
-body {
-  font-family: 'Poppins', sans-serif;
-}
-
 .col-2 {
   flex-basis: 50%;
   min-width: 300px;
@@ -91,7 +91,7 @@ body {
 }
 
 .categories {
-  margin: 70px;
+  margin: 70px 0;
 }
 
 .col-3 {
@@ -300,6 +300,7 @@ ul {
 .menu-icon {
   width: 28px;
   margin-left: 20px;
+  display: none;
 }
 
 @media only screen and (max-width: 800px) {
@@ -331,7 +332,7 @@ ul {
 
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
   .row {
     text-align: center;
   }
